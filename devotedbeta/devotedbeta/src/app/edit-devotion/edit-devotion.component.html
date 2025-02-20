@@ -1,0 +1,9 @@
+<div class="content-box">
+    <h2>Edit Devotion</h2>
+    <app-devotion-data-form 
+        buttonText="Save Changes"
+        [currentTitle]="post?.title"
+        [currentPassage]="post?.passage"
+        [currentDescription]="post?.description"
+        (onSubmit)="onSubmit()"></app-devotion-data-form>
+</div>

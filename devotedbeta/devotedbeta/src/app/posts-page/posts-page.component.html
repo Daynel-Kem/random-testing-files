@@ -1,1 +1,7 @@
-<p>WHATS UP BUDDIES</p>
+<div>
+    <div class="content-box" *ngFor="let post of posts">
+        <a routerLink='/posts/{{post.id}}'>
+            <h3>{{post.title}} : {{post.description}}</h3>
+        </a>
+    </div>
+</div>

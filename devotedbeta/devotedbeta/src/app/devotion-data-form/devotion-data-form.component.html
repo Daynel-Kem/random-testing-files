@@ -1,0 +1,21 @@
+<form (ngSubmit)="onButtonClicked()">
+    <div>
+        <label for="title">
+            Title: 
+        </label>
+        <input id="title" name="title" type="text" [(ngModel)]="title">
+    </div>
+    <div>
+        <label for="passage">
+            Passage: 
+        </label>
+        <input id="passage" name="passage" type="text" [(ngModel)]="passage">
+    </div>
+    <div>
+        <label for="description">
+            Description: 
+        </label>
+        <textarea id="description" name="description" type="text" [(ngModel)]="description" rows="10" cols="40"></textarea>
+    </div>
+    <button type="submit">{{buttonText}}</button>
+</form>
