@@ -1,5 +1,5 @@
 import './App.css'
-import { useReducer, useState, useEffect } from 'react';
+import { useReducer, useEffect } from 'react';
 import image from './assets/Screenshot 2024-04-11 at 6.54.44 PM.png'
 
 function Header({name, year}) {
